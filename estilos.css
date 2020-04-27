@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+#h_nav{
+    background-color: #303E4F;
+}
+
+#h_nav #logo{
+    text-align: left;
+    width: 50%;
+}
+
+#h_nav img{
+    width: 300px;
+    padding: 10px;
+}
+
+.n_menu{
+    text-align: center;
+    width: 45%;
+    margin: auto 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.n_menu  a{
+    text-decoration: none;
+    color: #FAF3F2;
+    background-color: #B24334;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#s_main{
+    clear: both;
+    float: left;
+    width: 68%;
+    padding: 10px;
+}
+
+#s_main article{
+    padding: 20px 10px;
+}
+#s_main article:first-of-type{
+    border-bottom: solid black 1px;
+}
+
+#a_ads{
+    float: right;
+    background-color: #D9823B;
+    width: 27%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#a_ads aside{
+    margin: 10px auto;
+    background-color: #C55C24;
+    height: 200px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+footer{
+    clear: both;
+    background-color: #303E4F;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+footer aside{
+    padding: 10px;
+    display: flex;
+}
+
+footer .n_menu{
+    clear: both;
+    padding: 10px 0px;
+}
+
+footer .n_menu a{
+    padding: 10px 15px;
+}
+
+footer span{
+    padding: 10px;
+    margin: auto;
+    color: #FAF3F2;
+    background-color: #D9823B;
+}
+
